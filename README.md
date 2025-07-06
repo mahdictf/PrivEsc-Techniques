@@ -1,12 +1,9 @@
 # PrivEsc-Techniques
 
-Here's a well-organized `README.md` file based on your notes:
+
 
 ---
 
-````markdown
-# 🛡️ Ultimate Privilege Escalation Techniques Guide (Linux & Windows)
-**With Detailed Examples & Commands**
 
 Privilege escalation is a critical skill for ethical hackers and penetration testers. After gaining initial access to a system, attackers often seek to escalate privileges to gain greater control, access sensitive information, or run higher-level commands.
 
@@ -17,8 +14,7 @@ Privilege escalation is a critical skill for ethical hackers and penetration tes
 - [GitHub: Privilege Escalation Repositories](https://github.com/topics/privilege-escalation?o=desc&s=stars)  
 - [Infosec Writeups: Privilege Escalation Techniques](https://infosecwriteups.com/privilege-escalation-techniques-for-ethical-hackers-7b593d92dfca)
 
----
-
+ ---
 ## 📚 Table of Contents
 
 1. [Kernel Exploits](#1-kernel-exploits)
@@ -32,18 +28,16 @@ Privilege escalation is a critical skill for ethical hackers and penetration tes
 9. [NFS Misconfigurations](#9-nfs-misconfigurations)
 10. [Windows-Specific Techniques](#10-windows-specific-techniques)
 11. [Automated Tools](#11-automated-tools)
-12. [Final Notes](#12-final-notes)
-
----
+ ---
 
 ## 1. Kernel Exploits
 
-### Linux
+* **Linux
 - **Dirty Cow (CVE-2016-5195)**
   ```bash
   gcc -pthread dirty.c -o dirty -lcrypt
   ./dirty
-````
+ ```
 
 * **PwnKit (CVE-2021-4034)**
 
@@ -302,17 +296,3 @@ Invoke-TokenManipulation -ImpersonateUser -Username "NT AUTHORITY\SYSTEM"
 
 ---
 
-## 12. Final Notes
-
-✅ **Always obtain proper authorization before testing any techniques.**
-✅ **Log and document your findings thoroughly.**
-✅ **Ensure discovered vulnerabilities are reported and patched.**
-
-> This guide is intended for **educational purposes** and ethical hacking only. Let me know if you’d like deeper explanations or hands-on labs for any section! 🚀
-
-```
-
----
-
-Let me know if you want this saved as an actual `.md` file or enhanced with visuals, badges, or tool links.
-```

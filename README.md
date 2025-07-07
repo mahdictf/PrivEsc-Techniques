@@ -37,7 +37,7 @@ Privilege escalation is a critical skill for ethical hackers and penetration tes
   ```bash
   gcc -pthread dirty.c -o dirty -lcrypt
   ./dirty
- ```
+  ```
 
 * **PwnKit (CVE-2021-4034)**
 

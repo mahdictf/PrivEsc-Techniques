@@ -296,3 +296,16 @@ Invoke-TokenManipulation -ImpersonateUser -Username "NT AUTHORITY\SYSTEM"
 
 ---
 
+## 12. Python Commands
+
+* **Python Spawn**
+
+This technique is often employed when working with restricted environments where direct shell access is not possible. The command works by importing the pty module and using the spawn function to start a new shell session.
+
+
+```python
+python -c ‘import pty;pty.spawn(“/bin/bash”)’
+
+```
+
+

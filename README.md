@@ -28,6 +28,7 @@ Privilege escalation is a critical skill for ethical hackers and penetration tes
 9. [NFS Misconfigurations](#9-nfs-misconfigurations)
 10. [Windows-Specific Techniques](#10-windows-specific-techniques)
 11. [Automated Tools](#11-automated-tools)
+12. [Python Commands](#12-Python-Commands)
  ---
 
 ## 1. Kernel Exploits

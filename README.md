@@ -296,3 +296,11 @@ Invoke-TokenManipulation -ImpersonateUser -Username "NT AUTHORITY\SYSTEM"
 
 ---
 
+## 12. Python Commands
+
+* **Pty Spawn**
+
+This command is commonly used in penetration testing and security assessments to upgrade a non-interactive shell to an interactive one, providing better functionality such as tab completion and the ability to use the arrow keys.
+```
+python -c 'import pty; pty.spawn("/bin/bash")'
+```

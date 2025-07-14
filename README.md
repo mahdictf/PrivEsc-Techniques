@@ -1,6 +1,4 @@
 # PrivEsc-Techniques
-
-
 Privilege escalation is a critical skill for ethical hackers and penetration testers. After gaining initial access to a system, attackers often seek to escalate privileges to gain greater control, access sensitive information, or run higher-level commands.
 
 ---
